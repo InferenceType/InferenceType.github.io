@@ -1,1 +1,1 @@
-# InferenceType.github.io
+# index.html
