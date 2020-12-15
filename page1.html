@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US"> <!-- set the language to english US; for some reason its nice to have --> 
+    <title>Roberto Solares Resume</title> <!-- not sure what this does yet -->
+    <link rel="stylesheet" href="style.css">
+        <ul class="navegationmenu">
+            <li class="menuid"><a href="index.html">About</a></li>
+            <li class="menuid"><a href="page1.html">Media</a></li>
+            <li class="menuid"><a href="page2.html">PC Specifications</a></li>
+        </ul> 
+    
+    <h2>Youtube Channel</h2>
+        <p>Here you will find my favorite clips of popular first person shooters I play</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/playlist?list=PLUw4AIGu1h_IGw387KiLKpK5TCsEv8vvR" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        
+    
+    <h2>Twitch Channel</h2>
+        <p>When I go live on twitch you can catch my latest stream here</p>
+        <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "inferencetype",
+        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+        parent: ["embed.example.com", "othersite.example.com"]
+      });
+    </script>
+            
+            
+
+</html>
