@@ -28,31 +28,25 @@ h2 {
 p {
     color: crimson;
     text-align: center;
+    font-size: 2.5vw;
+}
+
+
+
+a {
+  color:chartreuse;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color:deeppink;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 ul {
     text-align: right;
-}
-
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
 }
 
 ul.navegationmenu {
