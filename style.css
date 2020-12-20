@@ -7,7 +7,7 @@ html {
 body {
     background-image: url("images/27097.jpg");
     font-family: 'Fjalla One', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin: 50px;
 }
 
@@ -28,7 +28,6 @@ h2 {
 p {
     color: crimson;
     text-align: center;
-    font-size: 2vw;
 }
 
 a {
